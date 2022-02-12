@@ -17,7 +17,7 @@ $(document).ready(function () {
     $("#inputNumber").val(result);
   });
 
-  $("#inputNumber").keyup(function () {
+  $("#inputNumber").bind("input propertychange", function () {
     $("#copy").text("Salin");
 
     const lines = $("#inputNumber")
