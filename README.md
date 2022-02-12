@@ -3,4 +3,4 @@ Menghilangkan "62" pada nomor telepon
 
 ---
 
-![preview.png](preview)
+![preview](/assets/preview.png)
